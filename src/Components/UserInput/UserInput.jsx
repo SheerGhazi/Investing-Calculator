@@ -64,6 +64,13 @@ const UserInput = () => {
           required />
         </p>
       </div>
+
+      <section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illo, odit itaque corrupti, facere quam tempore a minima enim similique accusantium hic neque et cumque ad numquam. Voluptates, soluta error.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illo, odit itaque corrupti, facere quam tempore a minima enim similique accusantium hic neque et cumque ad numquam. Voluptates, soluta error.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illo, odit itaque corrupti, facere quam tempore a minima enim similique accusantium hic neque et cumque ad numquam. Voluptates, soluta error.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illo, odit itaque corrupti, facere quam tempore a minima enim similique accusantium hic neque et cumque ad numquam. Voluptates, soluta error.</p>
+      </section>
     </section>
   );
 };
