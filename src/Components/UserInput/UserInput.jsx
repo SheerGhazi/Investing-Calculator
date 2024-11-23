@@ -1,9 +1,10 @@
 import React from "react";
+
 import { useState } from "react";
 
 const UserInput = () => {
   const [UserInput, setUserInput] = useState({
-    initialInvestment: 10000,
+    initialInvestment: 5000,
     annualReturn: 1200,
     expectedReturn: 6,
     duration: 10,
@@ -20,7 +21,7 @@ const UserInput = () => {
 
   return (
     <section id="user-input">
-      <div id="input-group">
+      <div id="input-group" className=" flex justify-between">
         <p>
           <label htmlFor="">Initial Investment</label>
           <input
@@ -43,7 +44,7 @@ const UserInput = () => {
           required />
         </p>
       </div>
-      <div id="input-group">
+      <div id="input-group" className="flex justify-between">
         <p>
           <label htmlFor="">Expected Return</label>
           <input type="number"
@@ -60,10 +61,12 @@ const UserInput = () => {
           onChange={(event) =>
             handleChange("duration", event.target.value)
           }
-          
+
           required />
         </p>
       </div>
+
+     
 
     </section>
   );
