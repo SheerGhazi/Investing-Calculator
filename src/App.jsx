@@ -14,10 +14,10 @@ function App() {
   return (
     <>
    <Header/>
-   {/* <UserInput/> */}
-   {/* <Result/> */}
-   <Main/>
-   <Footer/>
+   <UserInput/>
+   <Result/>
+   {/* <Main/> */}
+   {/* <Footer/> */}
     </>
   )
 }
