@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Result = () => {
+const Result = ({input}) => {
+  console.log(input);
   return (
     <div>
       Hello
